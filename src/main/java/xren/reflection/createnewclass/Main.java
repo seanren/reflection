@@ -11,7 +11,7 @@ public class Main {
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args)  {
 		try {
-			Class <TestClass> clazz = (Class<TestClass>) Class.forName("xren.learning.reflection.createnewclass.TestClass");
+			Class <TestClass> clazz = (Class<TestClass>) Class.forName("xren.reflection.createnewclass.TestClass");
 			TestClass test = loadClass(clazz);
 			test.setV1(10);
 			System.out.println("TestClass output " + test.getV1());
